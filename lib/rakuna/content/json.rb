@@ -27,7 +27,7 @@ module Rakuna
 
       def valid?
         return true unless self.methods.include? validation_schema
-        @valid ||= JSON::Validator.validate validation_schema, request.body.to_s
+        @valid ||= ::JSON::Validator.validate validation_schema, request.body.to_s
       end
     end
   end
