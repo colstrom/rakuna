@@ -2,6 +2,7 @@ source "http://rubygems.org"
 
 gem "multi_json", "~> 1.11"
 gem "json-schema", "~> 2.5"
+gem "webmachine", "~> 1.4"
 
 group :development do
   gem "rspec", "~> 3.3"
