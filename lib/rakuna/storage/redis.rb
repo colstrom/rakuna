@@ -5,7 +5,7 @@ module Rakuna
     # Mixin to expose Redis to resources
     module Redis
       def redis
-        @redis ||= Redis.new
+        @redis ||= ::Redis.new
       end
     end
   end
