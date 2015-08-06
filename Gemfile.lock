@@ -137,6 +137,7 @@ DEPENDENCIES
   flog (~> 4.3)
   inch (~> 0.6)
   jeweler (~> 2.0)
+  multi_json (~> 1.11)
   reek (~> 3.1)
   roodi (~> 5.0)
   rspec (~> 3.3)
