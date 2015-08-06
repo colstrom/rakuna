@@ -12,5 +12,5 @@ group :development do
   gem "jeweler", "~> 2.0"
   gem "simplecov", "~> 0.10"
   gem "reek", "~> 3.1"
-  gem "roodi", "~> 2.1.0"
+  gem "roodi", "~> 5.0"
 end
