@@ -1,5 +1,7 @@
 source "http://rubygems.org"
 
+gem "multi_json", "~> 1.11"
+
 group :development do
   gem "rspec", "~> 3.3"
   gem "yard", "~> 0.8"
