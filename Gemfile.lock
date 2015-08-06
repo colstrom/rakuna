@@ -51,6 +51,8 @@ GEM
       rake
       rdoc
     json (1.8.3)
+    json-schema (2.5.1)
+      addressable (~> 2.3.7)
     jwt (1.5.1)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
@@ -137,6 +139,7 @@ DEPENDENCIES
   flog (~> 4.3)
   inch (~> 0.6)
   jeweler (~> 2.0)
+  json-schema (~> 2.5)
   multi_json (~> 1.11)
   reek (~> 3.1)
   roodi (~> 5.0)
