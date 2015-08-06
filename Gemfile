@@ -14,4 +14,5 @@ group :development do
   gem "reek", "~> 3.1"
   gem "roodi", "~> 5.0"
   gem "flog", "~> 4.3"
+  gem "rubocop", "~> 0.33"
 end
