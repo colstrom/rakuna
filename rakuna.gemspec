@@ -35,6 +35,8 @@ Gem::Specification.new do |s|
     "lib/rakuna/resource/action.rb",
     "lib/rakuna/resource/collection.rb",
     "lib/rakuna/resource/item.rb",
+    "lib/rakuna/storage.rb",
+    "lib/rakuna/storage/redis.rb",
     "rakuna.gemspec",
     "spec/rakuna_spec.rb",
     "spec/spec_helper.rb"
@@ -51,6 +53,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<multi_json>, ["~> 1.11"])
       s.add_runtime_dependency(%q<json-schema>, ["~> 2.5"])
       s.add_runtime_dependency(%q<webmachine>, ["~> 1.4"])
+      s.add_runtime_dependency(%q<redis>, ["~> 3.2"])
       s.add_development_dependency(%q<rspec>, ["~> 3.3"])
       s.add_development_dependency(%q<yard>, ["~> 0.8"])
       s.add_development_dependency(%q<bundler>, ["~> 1.10"])
@@ -65,6 +68,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<multi_json>, ["~> 1.11"])
       s.add_dependency(%q<json-schema>, ["~> 2.5"])
       s.add_dependency(%q<webmachine>, ["~> 1.4"])
+      s.add_dependency(%q<redis>, ["~> 3.2"])
       s.add_dependency(%q<rspec>, ["~> 3.3"])
       s.add_dependency(%q<yard>, ["~> 0.8"])
       s.add_dependency(%q<bundler>, ["~> 1.10"])
@@ -80,6 +84,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<multi_json>, ["~> 1.11"])
     s.add_dependency(%q<json-schema>, ["~> 2.5"])
     s.add_dependency(%q<webmachine>, ["~> 1.4"])
+    s.add_dependency(%q<redis>, ["~> 3.2"])
     s.add_dependency(%q<rspec>, ["~> 3.3"])
     s.add_dependency(%q<yard>, ["~> 0.8"])
     s.add_dependency(%q<bundler>, ["~> 1.10"])
