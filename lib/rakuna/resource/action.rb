@@ -3,7 +3,7 @@ require 'webmachine/resource'
 module Rakuna
   module Resource
     # Action Resources perform tasks.
-    class Action < Webmacine::Resource
+    class Action < Webmachine::Resource
       def allowed_methods
         %w(POST)
       end
