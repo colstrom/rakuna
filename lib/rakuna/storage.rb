@@ -1,0 +1,1 @@
+require 'rakuna/storage/redis'
