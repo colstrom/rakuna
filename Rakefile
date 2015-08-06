@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "rakuna"
   gem.homepage = "http://github.com/colstrom/rakuna"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Reusable Mixins for Webmachine-powered Applications}
+  gem.description = %Q{Rakuna provides mixins to simplify Webmachine development}
   gem.email = "chris@olstrom.com"
   gem.authors = ["Chris Olstrom"]
   # dependencies defined in Gemfile
