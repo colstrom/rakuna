@@ -24,6 +24,7 @@ Compose Interesting Systems from Simple Concepts
   * [`rakuna-authentication-github`](https://github.com/colstrom/rakuna-authentication-github) - GitHub authentication strategies.
   * [`rakuna-data-redis`](https://github.com/colstrom/rakuna-data-redis) - Container-friendly Redis support.
   * [`rakuna-session-redis`](https://github.com/colstrom/rakuna-session-redis) - Expiring session support to your Webmachine project, using Redis as a datastore.
+
 # Installation
 `gem install rakuna`
 
