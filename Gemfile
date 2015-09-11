@@ -1,9 +1,13 @@
 source "https://rubygems.org"
 
-gem "multi_json", "~> 1.11"
-gem "json-schema", "~> 2.5"
-gem "webmachine", "~> 1.4"
-gem "redis", "~> 3.2"
+gem 'rakuna-core', '~> 1.0'
+gem 'rakuna-content-json', '~> 1.0'
+gem 'rakuna-data-redis', '~> 1.0'
+gem 'rakuna-integration-github', '~> 1.0'
+gem 'rakuna-session-redis', '~> 1.0'
+gem 'rakuna-content-signature', '~> 1.0'
+gem 'rakuna-authentication-github', '~> 1.0'
+gem 'rakuna-validation-json', '~> 1.0'
 
 group :development do
   gem "rspec", "~> 3.3"
