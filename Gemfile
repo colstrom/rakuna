@@ -19,5 +19,5 @@ group :development do
   gem 'roodi', '~> 5.0'
   gem 'flog', '~> 4.3'
   gem 'rubocop', '~> 0.35'
-  gem 'inch', '~> 0.6'
+  gem 'inch', '~> 0.7'
 end
