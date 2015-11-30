@@ -14,7 +14,7 @@ group :development do
   gem 'yard', '~> 0.8'
   gem 'bundler', '~> 1.10'
   gem 'jeweler', '~> 2.0'
-  gem 'simplecov', '~> 0.10'
+  gem 'simplecov', '~> 0.11'
   gem 'reek', '~> 3.1'
   gem 'roodi', '~> 5.0'
   gem 'flog', '~> 4.3'
