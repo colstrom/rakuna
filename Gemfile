@@ -10,7 +10,7 @@ gem 'rakuna-authentication-github', '~> 1.0'
 gem 'rakuna-validation-json', '~> 1.0'
 
 group :development do
-  gem 'rspec', '~> 3.3'
+  gem 'rspec', '~> 3.4'
   gem 'yard', '~> 0.8'
   gem 'bundler', '~> 1.10'
   gem 'jeweler', '~> 2.0'
