@@ -15,7 +15,7 @@ group :development do
   gem 'bundler', '~> 1.10'
   gem 'jeweler', '~> 2.0'
   gem 'simplecov', '~> 0.11'
-  gem 'reek', '~> 3.1'
+  gem 'reek', '~> 3.7'
   gem 'roodi', '~> 5.0'
   gem 'flog', '~> 4.3'
   gem 'rubocop', '~> 0.33'
