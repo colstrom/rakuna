@@ -18,6 +18,6 @@ group :development do
   gem 'reek', '~> 3.7'
   gem 'roodi', '~> 5.0'
   gem 'flog', '~> 4.3'
-  gem 'rubocop', '~> 0.33'
+  gem 'rubocop', '~> 0.35'
   gem 'inch', '~> 0.6'
 end
