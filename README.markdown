@@ -37,7 +37,7 @@ Compose Interesting Systems from Simple Concepts
 ```ruby
 
 # Create a resource!
-class ExampleResource << Rakuna::Resource::Basic
+class ExampleResource < Rakuna::Resource::Basic
   include Rakuna::Provides::Text
 
   def output
@@ -57,7 +57,7 @@ Webmachine.application.run
 ```ruby
 
 # Create a resource!
-class ExampleResource << Rakuna::Resource::Basic
+class ExampleResource < Rakuna::Resource::Basic
   include Rakuna::Provides::HTML
   include Rakuna::Authentication::GitHub::Organization
   include Rakuna::Session::Redis
